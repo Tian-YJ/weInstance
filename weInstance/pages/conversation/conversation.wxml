@@ -1,0 +1,14 @@
+<!--pages/conversation/conversation.wxml-->
+<view class="container">
+  <view wx:for="{{objectArray}}" wx:key="unique" style="display: block;"> {{item.id}} </view>
+  <button bindtap="addToFront" class="send">send</button>
+  <view class='editArea'>
+    <textarea focus="true"  fixed='true' type="text" value="">
+    
+    
+    
+    </textarea> 
+  </view>  
+      
+</view>
+  

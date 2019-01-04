@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/register/register",
+    "pages/conversation/conversation",
+    "pages/contacts/contacts",
+    "pages/personalPage/personalPage",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#bbb",
+    "navigationBarTitleText": "Chat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/conversation/conversation",
+        "text": "会话",
+        "iconPath": "./images/conversation1.png",
+        "selectedIconPath": "./images/conversation2.png"
+      },
+      {
+        "pagePath": "pages/contacts/contacts",
+        "text": "联系人",
+        "iconPath": "./images/contacts1.png",
+        "selectedIconPath": "./images/contacts2.png"
+      },
+      {
+        "pagePath": "pages/personalPage/personalPage",
+        "text": "我的",
+        "iconPath": "./images/user1.png",
+        "selectedIconPath": "./images/user2.png"
+      }
+    ]
+  },
+  "debug":true
+
+}

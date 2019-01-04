@@ -1,0 +1,35 @@
+/* pages/conversation/conversation.wxss */
+.container{
+  position:relative
+}
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+view{
+  width:100%;
+  /* height:auto; */
+  background-color: pink;
+  margin-top:10px;
+}
+.editArea{
+  width:100%;
+  height: 500rpx;
+  border:2rpx red;
+
+}
+.editArea textarea{
+  position:absolute;
+  bottom:0;
+  left:20rpx;
+  background-color:rgb(255,255,254);
+  display: block;
+  width:75%;
+  height:85rpx;
+}
+.send{
+  position:absolute;
+  bottom:0;
+  right:10rpx;
+  background-color: green;
+}
